@@ -1,0 +1,41 @@
+.home-services__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-services__category-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.home-services__line {
+  margin-top: 15px;
+  width: 100%;
+  height: 1px;
+  background: #000000;
+}
+
+.home-services__list {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.home-services__link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+/*# sourceMappingURL=home-services.css.map */

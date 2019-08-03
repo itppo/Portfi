@@ -1,0 +1,58 @@
+.home-services
+  margin-top: 200px
+
+  &__block
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__category-title
+    font-size: 30px
+    font-weight: 700
+    text-transform: uppercase
+    margin-bottom: 40px
+    letter-spacing: 1px
+
+  &__line
+    margin-top: 15px
+    width: 100%
+    height: 1px
+    background: #000000
+
+  &__list
+    font-size: 18px
+    line-height: 2
+    letter-spacing: 1px
+    
+  &__link
+    text-decoration: none
+    color: inherit
+    cursor: pointer
+    display: inline-block
+    position: relative
+ 
+    
+a
+  text-decoration: none
+  color:#000
+  position: relative
+
+
+.home-services__item a
+  &:before
+    content: ""
+    bottom: 0
+    left: 0
+    position: absolute
+    width: 0
+    height: 5px
+    background-color: #FFD800
+    transition: 0.9s
+
+.home-services__item a:hover:before
+  width: 100%
+
+
+
+  
+ 
